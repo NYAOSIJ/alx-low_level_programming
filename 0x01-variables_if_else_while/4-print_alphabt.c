@@ -1,8 +1,7 @@
- #include <stdio.h>
+#include <stdio.h>
 /**
  * main - prints out the alphabet in lowercase except for qe
- *
- * returns 0,
+ * Return: Always 0.
  */
 int main(void)
 {
