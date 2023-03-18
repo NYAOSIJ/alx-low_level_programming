@@ -1,9 +1,13 @@
- #include <stdio.h>
+/*
+ * File: 4-print_alphabt.c
+ * Auth: 
+ */
+#include <stdio.h>
 
 /**
  * main - prints out the alphabet in lowercase except for qe
  *
- * Return (0)
+ * Returns 0,
  */
 
 int main(void)
