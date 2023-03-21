@@ -1,17 +1,19 @@
-#include <stdio.h>
+nclude<stdio.h>
 /* User defined function sum that has two int
  * parameters. The function adds these numbers and
  * return the result of addition.
  */
-int sum(int a, int b){
-   return a+b;
-}
+void add();                                               //Function Declaration
 int main()
 {
-   int  num3;
-   
-   /*Calling the function*/
-   num3 = sum(int a, int b);
-   putchar(num3);
-   return 0;
+  add();                                                  //Function Calling
+  return 0;
+}
+/* function definition*/
+void add()                                                //Function Definition
+{
+   int a,b,c;
+     c=a+b;
+   putchar(c);
+}
 }
