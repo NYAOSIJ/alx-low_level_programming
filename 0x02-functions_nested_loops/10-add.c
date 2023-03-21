@@ -8,10 +8,10 @@ int sum(int a, int b){
 }
 int main()
 {
-   int num1, num2, num3;
+   int  num3;
    
-   //Calling the function
-   num3 = sum(num1, num2);
+   /*Calling the function*/
+   num3 = sum(int a, int b);
    putchar(num3);
    return 0;
 }
