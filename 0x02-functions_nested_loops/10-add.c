@@ -7,14 +7,14 @@
 
 int main()
  {
-   int n1, n2, res;
+   int n1, int n2, res;
    
 /**
 *Call Function Sum With Two Parameters
 * res = add(int n1, int n2);
 */
  
-   putchar("nAddition of two number is : ");
+   putchar("Addition of two number is");
    return (0);
 
 /**
@@ -26,6 +26,7 @@ int main()
   */
 int add(int n1, int n2)
 {
-return (n1 + n2);
+return (int n1 + int n2);
 }
 }
+
