@@ -1,4 +1,21 @@
 #include <stdio.h>
+/**
+  * main - Entry point
+  *
+  * Return: Always 0
+  */
+
+int main()
+ {
+   int n1, n2, res;
+   
+/**
+*Call Function Sum With Two Parameters
+* res = add(int n1, int n2);
+*/
+ 
+   putchar("nAddition of two number is : ");
+   return (0);
 
 /**
   * add - Adds two values
@@ -10,4 +27,5 @@
 int add(int n1, int n2)
 {
 return (n1 + n2);
+}
 }
