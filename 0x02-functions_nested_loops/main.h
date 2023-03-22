@@ -1,8 +1,18 @@
- #include "main.h"
-/* User defined function sum that has two int
- * parameters. The function adds these numbers and
- * return the result of addition.
+# include "main.h"
+/**
+ * print_alphabet - entry point
+ * Return: 0
  */
-int sum(int a, int b){
-   return a+b;
+
+void print_alphabet(void)
+{
+  char c = 'a'; 
+
+  while (c <= 'z')
+  {
+putchar(c);
+c++;
+  }
+
+ ('\n');
 }
