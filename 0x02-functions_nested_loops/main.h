@@ -1,17 +1,9 @@
- #include "main.h"
-/**
-  * print_alphabet - Make the alphabet
-  *
-  * Return: void
-  */
-void print_alphabet(void)
-{
-char c;
-
-for (c = 'a'; c <= 'z'; c++)
-{
-putchar(c);
+#include main.h>
+/* User defined function sum that has two int
+ * parameters. The function adds these numbers and
+ * return the result of addition.
+ */
+int sum(int a, int b){
+   return a+b;
 }
 
-putchar ('\n');
-}
