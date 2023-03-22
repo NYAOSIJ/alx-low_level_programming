@@ -1,18 +1,11 @@
-# include "main.h"
-/**
- * print_alphabet - entry point
- * Return: 0
- */
 
-void print_alphabet(void)
 {
-  char c = 'a'; 
+    int r;
 
-  while (c <= 'z')
-  {
-putchar(c);
-c++;
-  }
-
- ('\n');
+    print_last_digit(98);
+    print_last_digit(0);
+    r = print_last_digit(-1024);
+    _putchar(0 + r);
+    _putchar(n);
+    return (0);
 }
