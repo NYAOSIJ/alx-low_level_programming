@@ -1,4 +1,4 @@
- #include "main.h"
+#include "main.h"
 
 /**
  * main - check the code.
@@ -12,8 +12,8 @@ char letter;
 while (count++ <= 9)
 {
 for (letter = 'a'; letter <= 'z'; letter++)
-_putchar(letter);
-_putchar('\n');
+putchar(letter);
+putchar('\n');
 }
 }
 int main(void)
