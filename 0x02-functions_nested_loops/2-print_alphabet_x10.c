@@ -2,17 +2,16 @@
 /**
  * print_alphabet_x10 - print a - z ten times
  */
-void print_alphabet_x10();
+void print_alphabet_x10()
 {
-  int i;
-  char j;
-  for (i = 0; i < 10; i++);
-  {
-for (j = 'a'; j <= 'z'; j++)
+int count = 0;
+char letter;
+
+while (count++ <= 9)
 {
-putchar(j);
-}
-putchar('\n');
+for (letter = 'a'; letter <= 'z'; letter++)
+_putchar(letter);
+_putchar('\n');
 }
 }
 
