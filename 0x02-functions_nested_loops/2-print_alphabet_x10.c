@@ -2,8 +2,8 @@
 /**
  * print_alphabet_x10 - print a - z ten times
  */
-void print_alphabet_x10();
-{
+void print_alphabet_x10()
+      {
 int count = 0;
 char letter;
 
